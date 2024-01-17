@@ -1,0 +1,3 @@
+{:tasks {b 3
+         a {:depends [b]
+            :task (prn (+ b 2))}}}
